@@ -1,0 +1,60 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Alamofire (4.7.0)
+  - BMPlayer (0.9.1):
+    - BMPlayer/Full (= 0.9.1)
+  - BMPlayer/Core (0.9.1)
+  - BMPlayer/Full (0.9.1):
+    - BMPlayer/Core
+    - NVActivityIndicatorView (~> 3.5)
+    - SnapKit (~> 3.2)
+  - NVActivityIndicatorView (3.7.0):
+    - NVActivityIndicatorView/Presenter (= 3.7.0)
+  - NVActivityIndicatorView/Presenter (3.7.0)
+  - SnapKit (3.2.0)
+  - VimeoNetworking (3.0.1):
+    - AFNetworking (= 3.1.0)
+  - VimeoUpload (1.0.2):
+    - VimeoNetworking
+  - YTVimeoExtractor (1.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - BMPlayer (~> 0.9.1)
+  - VimeoNetworking (from `Submodules/VimeoNetworking`)
+  - VimeoUpload (from `Submodules/VimeoUpload`)
+  - YTVimeoExtractor
+
+EXTERNAL SOURCES:
+  VimeoNetworking:
+    :path: Submodules/VimeoNetworking
+  VimeoUpload:
+    :path: Submodules/VimeoUpload
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
+  BMPlayer: e68ba160d9c05ea5fffc31d37448aa02433418ab
+  NVActivityIndicatorView: d3738df7e2e476aca0ba6bf32a8c9fbcfc33d64b
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+  VimeoNetworking: de463fc0d03d3db089de1287720eab140dd80663
+  VimeoUpload: 0ac04f277c46b6736f367b3755042efe55c27122
+  YTVimeoExtractor: f4ed90f43e08d33d56c1d1aff3f4f64663747966
+
+PODFILE CHECKSUM: c15f378b801a92df11ce1a63df50d1861c7cd3f4
+
+COCOAPODS: 1.4.0
